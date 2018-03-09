@@ -19,4 +19,19 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <curator.version>3.2.0</curator.version>
     </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.solr/solr-solrj -->
+        <dependency>
+            <groupId>org.apache.solr</groupId>
+            <artifactId>solr-solrj</artifactId>
+            <version>6.6.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.solr</groupId>
+            <artifactId>solr-core</artifactId>
+            <version>6.6.2</version>
+        </dependency>
+    </dependencies>
 </project>
